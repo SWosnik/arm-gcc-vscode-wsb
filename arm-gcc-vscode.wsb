@@ -1,27 +1,27 @@
 <Configuration>
   <MappedFolders>
     <MappedFolder>
-      <HostFolder>E:\Temp\download</HostFolder>
+      <HostFolder>E:\Temp\arm-gcc-vscode-wsb\download</HostFolder>
       <SandboxFolder>C:\Users\WDAGUtilityAccount\Downloads</SandboxFolder>
       <ReadOnly>false</ReadOnly>
     </MappedFolder>
     <MappedFolder>
-      <HostFolder>E:\Temp\scripts</HostFolder>
+      <HostFolder>E:\Temp\arm-gcc-vscode-wsb\scripts</HostFolder>
       <SandboxFolder>C:\Users\WDAGUtilityAccount\scripts</SandboxFolder>
       <ReadOnly>true</ReadOnly>
     </MappedFolder>
     <MappedFolder>
-      <HostFolder>E:\Temp\bin</HostFolder>
+      <HostFolder>E:\Temp\arm-gcc-vscode-wsb\bin</HostFolder>
       <SandboxFolder>C:\bin</SandboxFolder>
       <ReadOnly>false</ReadOnly>
     </MappedFolder>
     <MappedFolder>
-      <HostFolder>E:\Temp\workspace</HostFolder>
+      <HostFolder>E:\Temp\arm-gcc-vscode-wsb\workspace</HostFolder>
       <SandboxFolder>C:\Users\WDAGUtilityAccount\Documents\Projects</SandboxFolder>
       <ReadOnly>false</ReadOnly>
     </MappedFolder>
     <MappedFolder>
-      <HostFolder>E:\Temp\.vscode</HostFolder>
+      <HostFolder>E:\Temp\arm-gcc-vscode-wsb\.vscode</HostFolder>
       <SandboxFolder>C:\Users\WDAGUtilityAccount\.vscode</SandboxFolder>
       <ReadOnly>false</ReadOnly>
     </MappedFolder>
