@@ -1,0 +1,3 @@
+[submodule "workspace/STM32-Template"]
+	path = workspace/STM32-Template
+	url = https://github.com/SWosnik/STM32-Template.git
