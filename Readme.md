@@ -1,3 +1,5 @@
+![License](https://img.shields.io/github/license/SWosnik/MyApplicationTest)
+
 # arm gcc toolchain with VSCode
 
 1) Run build-arm-gcc-vscode-wsb.bat to create arm-gcc-vscode.wsb from
