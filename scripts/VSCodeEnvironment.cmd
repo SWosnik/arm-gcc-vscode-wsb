@@ -107,7 +107,7 @@ IF ERRORLEVEL 1 set path=c:\bin\vscode;%PATH%
 cd C:\Users\WDAGUtilityAccount\Documents\Projects\
 
 if NOT EXIST "STM32-Template" (
-  git.exe clone https://github.com/SWosnik/STM32-Template.git
+  git.exe clone --recurse-submodules https://github.com/SWosnik/STM32-Template.git
 )
 
 cd STM32-Template\Demo
