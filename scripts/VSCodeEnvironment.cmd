@@ -38,7 +38,7 @@ IF ERRORLEVEL 1 (
 
     REM extract VSCODE
     echo unzip Visual Studio Code
-    unzip -o %DOWNLOAD_DIR%\vscode.zip -d %BIN_DIR%\vscode
+    unzip -q -o %DOWNLOAD_DIR%\vscode.zip -d %BIN_DIR%\vscode
     REM check if vcode settings exist and if not: generate a default
     if NOT EXIST "%AppData%\Roaming\Code\User\settings.json" (
       REM No Welcome Display
@@ -63,7 +63,7 @@ IF ERRORLEVEL 1 (
     )
     echo unzip toolchain
     REM unzip toolchain
-    unzip -o %DOWNLOAD_DIR%\arm-none-eabi.zip -d %BIN_DIR%\
+    unzip -q -o %DOWNLOAD_DIR%\arm-none-eabi.zip -d %BIN_DIR%\
     REM rename tools-Path
     move %BIN_DIR%\arm-gnu-* %BIN_DIR%\arm-gnu-toolchain
   )
@@ -88,8 +88,8 @@ IF ERRORLEVEL 1 (
     )
     REM and unzip
     echo unzip make
-    unzip -o %DOWNLOAD_DIR%\make-bin.zip -d %BIN_DIR%\make
-    unzip -o %DOWNLOAD_DIR%\make-dep.zip -d %BIN_DIR%\make
+    unzip -q -o %DOWNLOAD_DIR%\make-bin.zip -d %BIN_DIR%\make
+    unzip -q -o %DOWNLOAD_DIR%\make-dep.zip -d %BIN_DIR%\make
   )
   REM add make to path
   echo Add make to path
@@ -111,8 +111,8 @@ IF ERRORLEVEL 1 (
     )
 
     echo unzip utils
-    unzip -o %DOWNLOAD_DIR%\utils-bin.zip -d %BIN_DIR%\utils
-    unzip -o %DOWNLOAD_DIR%\utils-dep.zip -d %BIN_DIR%\utils
+    unzip -q -o %DOWNLOAD_DIR%\utils-bin.zip -d %BIN_DIR%\utils
+    unzip -q -o %DOWNLOAD_DIR%\utils-dep.zip -d %BIN_DIR%\utils
   )
   REM add utils to path
   echo Add utils to path
@@ -130,7 +130,7 @@ IF ERRORLEVEL 1 set (
     )
     echo unzip git
     REM unzip git
-    unzip -o %DOWNLOAD_DIR%\MinGit.zip -d %BIN_DIR%\git
+    unzip -q -o %DOWNLOAD_DIR%\MinGit.zip -d %BIN_DIR%\git
   )
   echo Add git to path
   PATH=%BIN_DIR%\git\cmd;%PATH%
