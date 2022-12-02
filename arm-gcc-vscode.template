@@ -20,11 +20,6 @@
       <SandboxFolder>C:\Users\WDAGUtilityAccount\Documents\Projects</SandboxFolder>
       <ReadOnly>false</ReadOnly>
     </MappedFolder>
-    <MappedFolder>
-      <HostFolder><WORKDIR/>.vscode</HostFolder>
-      <SandboxFolder>C:\Users\WDAGUtilityAccount\.vscode</SandboxFolder>
-      <ReadOnly>false</ReadOnly>
-    </MappedFolder>
   </MappedFolders>
   <LogonCommand>
     <Command>explorer "C:\Users\WDAGUtilityAccount\scripts" </Command>
