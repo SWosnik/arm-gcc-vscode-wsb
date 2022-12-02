@@ -1,3 +1,6 @@
 [submodule "workspace/STM32-Template"]
 	path = workspace/STM32-Template
 	url = https://github.com/SWosnik/STM32-Template.git
+[submodule "scripts"]
+	path = scripts
+	url = https://github.com/SWosnik/win10-arm-vscode-environment.git
